@@ -36,15 +36,16 @@
 
     <script type="text/javascript">
 
-        var resumeButton = document.getElementByID("download-resume")
-
+       
+        var resumeButton = document.getElementById("download-resume")
+      
         function handleClick(event) {
-            const downloadLink = document.createElement("a");
-            downloadLink.href = "Isabella Haug- Resume 2025.pdf";
-            downloadLink.download = "Isabella Haug- Resume 2025.pdf";
-            downloadLink.click();
+         const downloadLink = document.createElement("a");
+         downloadLink.href = "Isabella Haug- Resume 2025.pdf";
+         downloadLink.download = "Isabella Haug- Resume 2025.pdf";
+         downloadLink.click();
         }
-
+      
         resumeButton.addEventListener("click", handleClick, false)
 
     </script>
